@@ -1,4 +1,4 @@
-# [Imperial College London Mathematics for Machine Learning](https://www.coursera.org/partners/imperial) - COMPLETED!
+# [Imperial College London - Mathematics for Machine Learning Specialization](https://www.coursera.org/partners/imperial) - COMPLETED!
 
 The **Mathematics for Machine Learning** specialization offered by Imperial College London is designed to equip learners with the mathematical foundations necessary for understanding and implementing modern machine learning algorithms. This specialization emphasizes the core mathematical concepts that underpin machine learning, such as linear algebra, multivariate calculus, and dimensionality reduction techniques.
 
