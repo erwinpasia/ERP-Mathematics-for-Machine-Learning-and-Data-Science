@@ -4,6 +4,8 @@ This reference is designed as a powerful mnemonic, pairing **core machine learni
 
 ## 1. **Regression \& Classification Algorithms**
 
+![pl](images/1_Regression_Classification_Algorithms.png)
+
 | Algorithm | Core Formula/Concept | Typical Use Cases |
 | :-- | :-- | :-- |
 | **Linear Regression** | \$ y = \beta_0 + \beta_1x_1 + ··· + \beta_nx_n + \epsilon \$ | Predicting housing prices, sales forecasting |
@@ -14,6 +16,8 @@ This reference is designed as a powerful mnemonic, pairing **core machine learni
 
 ## 2. **Evaluation, Loss Functions \& Metrics**
 
+![pl](images/2_Evaluation_LossFunctions_Metrics.png)
+
 | Concept | Formula | Algorithm(s)/Context Applied |
 | :-- | :-- | :-- |
 | **MSE** | \$ \frac{1}{n}\sum(y_i - \hat{y}_i)^2 \$ | Regression models (Linear, Ridge, Lasso) |
@@ -22,6 +26,8 @@ This reference is designed as a powerful mnemonic, pairing **core machine learni
 | **R² Score** | $1 - \frac{\sum(y_i - \hat{y}_i)^2}{\sum(y_i - \bar{y})^2}$ | Model fit in Regression |
 
 ## 3. **Tree-Based, Ensemble, and Instance-Based Methods**
+
+![pl](images/3_Tree-Based_Ensemble_InstanceBased_Methods.png)
 
 | Algorithm | Core Formula/Concept | Typical Use Cases |
 | :-- | :-- | :-- |
@@ -32,6 +38,8 @@ This reference is designed as a powerful mnemonic, pairing **core machine learni
 
 ## 4. **Support Vector Machines (SVM)**
 
+![pl](images/4_Support_Vector_Machines_SVM.png)
+
 - **Optimization**:
 \$ \min_{w,b} \frac{1}{2}||w||^2 + C\sum_{i=1}^n \max(0, 1 - y_i(w \cdot x_i - b)) \$
 - **Use Cases**:
@@ -39,6 +47,8 @@ Image recognition, bioinformatics, high-dimensional data classification
 
 
 ## 5. **Clustering \& Dimensionality Reduction**
+
+![pl](images/5_Clustering_Dimensionality_Reduction.png)
 
 | Algorithm | Core Formula/Concept | Typical Use Cases |
 | :-- | :-- | :-- |
@@ -48,6 +58,8 @@ Image recognition, bioinformatics, high-dimensional data classification
 | **SVD** | \$ A = U\Sigma V^T \$ | Latent semantic analysis, noise reduction |
 
 ## 6. **Deep Learning \& Neural Networks**
+
+![pl](images/6_DeepLearning_Neural_Neworks.png)
 
 | Algorithm | Core Formula/Concept | Typical Use Cases |
 | :-- | :-- | :-- |
@@ -60,6 +72,8 @@ Image recognition, bioinformatics, high-dimensional data classification
 
 ## 7. **Probabilistic \& Information Theory**
 
+![pl](images/7_Probablistic_InformationTheory.png)
+
 | Concept/Algorithm | Formula | Use Cases |
 | :-- | :-- | :-- |
 | **Normal Distribution** | \$ f(x | \mu, \sigma^2) = \frac{1}{\sigma \sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}} \$ |
@@ -70,12 +84,16 @@ Image recognition, bioinformatics, high-dimensional data classification
 
 ## 8. **Similarity \& Correlation Measures**
 
+![pl](images/8_Similarity_CorrelationMeasures.png)
+
 | Formula/Concept | Use Cases |
 | :-- | :-- |
 | **Correlation** | \$ \frac{Cov(X,Y)}{Std(X)\cdotStd(Y)} \$ |
 | **Cosine Similarity** | \$ \frac{A \cdot B}{ |
 
 ## 9. **Ensemble and Reinforcement Learning**
+
+![pl](images/9_Ensemble_ReinforcementLearning.png)
 
 | Algorithm | Concept/Optimization | Use Cases |
 | :-- | :-- | :-- |
@@ -84,6 +102,8 @@ Image recognition, bioinformatics, high-dimensional data classification
 | **Q-Learning / Policy Gradient RL** | Bellman equation, reward maximization | Game bots, robotic controls |
 
 ## 10. **Typical Domain Applications (One-Stop Mapping)**
+
+![pl](images/10_Typical_Domain_Applications_1-Stop_Mapping.png)
 
 | Domain | Algorithm Examples | Math/Concept Anchor |
 | :-- | :-- | :-- |
@@ -94,6 +114,8 @@ Image recognition, bioinformatics, high-dimensional data classification
 | Manufacturing | Time Series, SVM | Sequential models, support vector classification |
 
 ## 11. **General Optimization Backbone**
+
+![pl](images/11_General_Optimization_Backbone.png)
 
 - **Gradient Descent Update**:
 \$ \theta_{j+1} = \theta_j - \alpha \nabla J(\theta_j) \$
