@@ -135,8 +135,7 @@ Essential in regularization and SVM margin optimization.
 
 This merged, structured mnemonic gives you a compact yet comprehensive blueprint for tackling real ML problems—by aligning algorithm, math, and use case in one glance.
 
-
-# Comprehensive Mnemonic Reference for Machine Learning Mathematics
+# Foundational Mathematical Tools from Probability and Statistics to Optimization, Evaluation Metrics, and Matrix Operations:
 
 This reference serves as a quick mnemonic guide featuring essential mathematical formulas and concepts frequently used in machine learning. The aim is to empower you to quickly recall and apply these techniques when solving new machine learning problems.
 
@@ -311,9 +310,7 @@ $$
 This mnemonic-like reference covers a broad spectrum of foundational mathematical tools for machine learning, from probability and statistics to optimization, evaluation metrics, and matrix operations. Keep this close to tap into a quick refresher whenever tackling new machine learning problems. It ensures you’re equipped comprehensively to develop and analyze models effectively.
 
 
-# What key algorithms and their use cases should be included in my reference mnemonic
-
-Based on your mathematics reference image and comprehensive research, here are the **key algorithms and their use cases** that should be included in your machine learning mnemonic reference:
+# Key Algorithms and Their Use Cases:
 
 ## **Supervised Learning Algorithms**
 
