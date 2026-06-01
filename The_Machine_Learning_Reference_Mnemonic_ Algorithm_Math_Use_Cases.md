@@ -316,88 +316,88 @@ This mnemonic-like reference covers a broad spectrum of foundational mathematica
 
 ### **Regression Algorithms**
 
-- **Linear Regression**: Predicting continuous values like housing prices, stock prices, and customer lifetime value[^1]. Essential for understanding relationships between variables and baseline modeling.
-- **Logistic Regression**: Binary classification tasks such as spam detection, medical diagnosis (disease vs. no disease), and marketing response prediction[^1][^2]. Despite its simplicity, it often outperforms more complex methods[^3].
-- **Ridge/Lasso Regression**: Feature selection and regularization to prevent overfitting, particularly useful when dealing with high-dimensional data[^4].
+- **Linear Regression**: Predicting continuous values like housing prices, stock prices, and customer lifetime value. Essential for understanding relationships between variables and baseline modeling.
+- **Logistic Regression**: Binary classification tasks such as spam detection, medical diagnosis (disease vs. no disease), and marketing response prediction. Despite its simplicity, it often outperforms more complex methods.
+- **Ridge/Lasso Regression**: Feature selection and regularization to prevent overfitting, particularly useful when dealing with high-dimensional data.
 
 
 ### **Tree-Based Algorithms**
 
-- **Decision Trees**: Healthcare diagnostics, credit approval, and any scenario requiring interpretable decision-making[^1][^2]. Excellent for explaining predictions to non-technical stakeholders.
-- **Random Forest**: Disease detection, feature selection, and robust prediction tasks[^5][^6][^1]. Combines multiple decision trees to reduce overfitting and improve accuracy. Research shows it achieved 85% accuracy in COVID-19 hospitalization prediction[^5].
-- **Gradient Boosting/XGBoost**: High-stakes prediction tasks, competition scenarios, and complex pattern recognition[^1][^4]. Particularly effective for structured data problems.
+- **Decision Trees**: Healthcare diagnostics, credit approval, and any scenario requiring interpretable decision-making. Excellent for explaining predictions to non-technical stakeholders.
+- **Random Forest**: Disease detection, feature selection, and robust prediction tasks. Combines multiple decision trees to reduce overfitting and improve accuracy. Research shows it achieved 85% accuracy in COVID-19 hospitalization prediction.
+- **Gradient Boosting/XGBoost**: High-stakes prediction tasks, competition scenarios, and complex pattern recognition. Particularly effective for structured data problems.
 
 
 ### **Instance-Based Learning**
 
-- **K-Nearest Neighbors (KNN)**: Recommendation systems, missing data imputation, and similarity-based predictions[^7][^8]. Useful for baseline models and data preprocessing tasks.
+- **K-Nearest Neighbors (KNN)**: Recommendation systems, missing data imputation, and similarity-based predictions. Useful for baseline models and data preprocessing tasks.
 
 
 ### **Support Vector Machines (SVM)**
 
-- **Linear/Non-linear SVM**: Text classification, image recognition, and high-dimensional data problems[^1][^2][^9]. Effective for finding optimal decision boundaries, especially with kernel tricks for non-linear data.
+- **Linear/Non-linear SVM**: Text classification, image recognition, and high-dimensional data problems. Effective for finding optimal decision boundaries, especially with kernel tricks for non-linear data.
 
 
 ## **Unsupervised Learning Algorithms**
 
 ### **Clustering Algorithms**
 
-- **K-Means Clustering**: Customer segmentation, market research, and data exploration[^9][^8]. Groups similar data points to discover hidden patterns in unlabeled data.
+- **K-Means Clustering**: Customer segmentation, market research, and data exploration. Groups similar data points to discover hidden patterns in unlabeled data.
 - **Hierarchical Clustering**: Organizing data into tree-like structures, useful for taxonomy creation and data visualization.
 
 
 ### **Dimensionality Reduction**
 
-- **Principal Component Analysis (PCA)**: Feature reduction, data visualization, and noise reduction[^8]. Essential for handling high-dimensional datasets and improving computational efficiency.
+- **Principal Component Analysis (PCA)**: Feature reduction, data visualization, and noise reduction. Essential for handling high-dimensional datasets and improving computational efficiency.
 
 
 ### **Association Rules**
 
-- **Apriori Algorithm**: Market basket analysis, recommendation systems, and pattern discovery in transactional data[^8]. Identifies frequently co-occurring items or events.
+- **Apriori Algorithm**: Market basket analysis, recommendation systems, and pattern discovery in transactional data. Identifies frequently co-occurring items or events.
 
 
 ## **Probabilistic Algorithms**
 
 ### **Naive Bayes**
 
-- **Gaussian/Multinomial Naive Bayes**: Text classification, spam filtering, and sentiment analysis[^5][^9][^8]. Simple yet effective for categorical prediction tasks, particularly with text data.
+- **Gaussian/Multinomial Naive Bayes**: Text classification, spam filtering, and sentiment analysis. Simple yet effective for categorical prediction tasks, particularly with text data.
 
 
 ## **Deep Learning Algorithms**
 
 ### **Neural Networks**
 
-- **Feedforward Neural Networks**: Complex pattern recognition, function approximation, and non-linear modeling[^2][^10].
-- **Convolutional Neural Networks (CNNs)**: Image classification, computer vision, and medical imaging analysis[^10]. Revolutionary for visual recognition tasks.
-- **Recurrent Neural Networks (RNNs/LSTMs)**: Time series forecasting, natural language processing, and sequential data analysis[^10]. Essential for handling temporal dependencies.
-- **Generative Adversarial Networks (GANs)**: Data generation, image synthesis, and data augmentation[^10]. Cutting-edge for creating synthetic realistic data.
+- **Feedforward Neural Networks**: Complex pattern recognition, function approximation, and non-linear modeling.
+- **Convolutional Neural Networks (CNNs)**: Image classification, computer vision, and medical imaging analysis. Revolutionary for visual recognition tasks.
+- **Recurrent Neural Networks (RNNs/LSTMs)**: Time series forecasting, natural language processing, and sequential data analysis. Essential for handling temporal dependencies.
+- **Generative Adversarial Networks (GANs)**: Data generation, image synthesis, and data augmentation. Cutting-edge for creating synthetic realistic data.
 
 
 ## **Ensemble Methods**
 
 ### **Bagging and Boosting**
 
-- **Random Forest** (Bagging): Reduces overfitting by combining multiple models[^8].
-- **AdaBoost/Gradient Boosting** (Boosting): Sequentially improves weak learners to create strong predictors[^8].
+- **Random Forest** (Bagging): Reduces overfitting by combining multiple models.
+- **AdaBoost/Gradient Boosting** (Boosting): Sequentially improves weak learners to create strong predictors.
 
 
 ## **Specialized Algorithms**
 
 ### **Reinforcement Learning**
 
-- **Q-Learning**: Game playing, robotics, and autonomous decision-making[^11].
-- **Policy Gradient Methods**: Complex control tasks and optimization problems[^11].
+- **Q-Learning**: Game playing, robotics, and autonomous decision-making.
+- **Policy Gradient Methods**: Complex control tasks and optimization problems.
 
 
 ## **Real-World Application Categories**
 
 Your mnemonic should organize algorithms by these key use cases:
 
-1. **Healthcare**: Disease prediction (Random Forest, Neural Networks), medical imaging (CNNs), drug discovery (GANs)[^5][^6][^12]
-2. **Finance**: Fraud detection (SVM, Anomaly Detection), risk assessment (Logistic Regression), algorithmic trading (Time Series models)[^2]
-3. **Marketing**: Customer segmentation (K-Means), recommendation systems (KNN, Matrix Factorization), churn prediction (Random Forest)[^2]
-4. **Technology**: Natural language processing (RNNs, Transformers), computer vision (CNNs), search optimization (Learning to Rank)[^2]
-5. **Manufacturing**: Quality control (SVM), predictive maintenance (Time Series), process optimization (Reinforcement Learning)[^2]
+1. **Healthcare**: Disease prediction (Random Forest, Neural Networks), medical imaging (CNNs), drug discovery (GANs).
+2. **Finance**: Fraud detection (SVM, Anomaly Detection), risk assessment (Logistic Regression), algorithmic trading (Time Series models).
+3. **Marketing**: Customer segmentation (K-Means), recommendation systems (KNN, Matrix Factorization), churn prediction (Random Forest).
+4. **Technology**: Natural language processing (RNNs, Transformers), computer vision (CNNs), search optimization (Learning to Rank).
+5. **Manufacturing**: Quality control (SVM), predictive maintenance (Time Series), process optimization (Reinforcement Learning).
 
 ## **Selection Criteria for Your Mnemonic**
 
